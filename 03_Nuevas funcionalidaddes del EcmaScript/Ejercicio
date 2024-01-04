@@ -1,0 +1,23 @@
+const objetos =  [
+	{
+		manzanas:3,
+		peras:2,
+		carne:1,
+		jugos:5,
+		dulces:2
+	},
+	{
+		sandias:1,
+		huevos:6,
+		jugos:1,
+		panes:4
+	}
+]
+
+let arrayPr1 = Object.keys(objetos[0])
+let arrayPr2 = Object.keys(objetos[1])
+let tiposPreCompletos = [...arrayPr1, ...arrayPr2]
+
+console.log(tiposPreCompletos)
+
+
