@@ -1,0 +1,12 @@
+<div>
+  <h1>App Sockect</h1>
+  <form onsubmit="return addMessage()" >
+    <input type="text" id="username" placeholder="Tu Nombre" >
+    <input type="text" id="texto" placeholder="Cuentanos algo..." >
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+<div id="caja"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
