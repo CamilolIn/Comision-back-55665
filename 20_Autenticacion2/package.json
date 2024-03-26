@@ -1,0 +1,19 @@
+{
+  "name": "20_autenticacion2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "passport": "^0.6.0",
+    "passport-github2": "^0.1.12"
+  }
+}
